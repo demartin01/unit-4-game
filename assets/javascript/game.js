@@ -1,4 +1,4 @@
-
+//$(document).ready(function(){} --why does this break my code?
     var wins = 0;
     var losses = 0;
     var random = 0;
@@ -27,3 +27,24 @@
             $("#imgDiv").append(crystal);
         }
     }
+   /*Create listening event $("images").click(function(){} or on click? What's the difference 
+   get value & add to total score 
+   
+   if (matchThis ===total sum){
+    Alert ("Yay, You Win!");
+   } 
+                -->then add one to wins
+    
+    else if (matchThis >=total sum){  
+    Alert ("Sorry, You Lose!");
+    }
+                -->then add one to loses 
+
+    keep count/Tally of loses and wins --Counter or New Score? 
+    */
+
+
+   
+
+
+
