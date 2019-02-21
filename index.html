@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CrytalsCollector Game</title>
+    <!--Added link to my css stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Added link to font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Begin code here-->
+    <h1 id="title">
+        Crystals Collector!
+    </h1>
+
+    <h2 id="2ndTitle">
+        Intructions
+    </h2>
+
+    <P> You will be assigned a random number at the start of the game. Using the four crystals below you will be able to
+        match your assigned number. Each crystal will have a unique value/number assigned to it. The goal is to figure
+        out the value of each crystal and then do your best to reach the assigned number. Happy clicking! You're a gem,
+        you've got this!</P>
+
+    <div id="scoreBoard">
+        <div id="leftDiv">
+            <h2>TOTAL</h2>
+            <h1 id="totalSum">0</h1>
+        </div>
+        <div id="rightDiv">
+            <h2>MATCH</h2>
+            <h1 id="matchThis">0</h1>
+        </div>
+    </div>
+
+    <div id="imgDiv"></div>
+
+    <!--Added link to the jQuery Library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--link script here-->
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

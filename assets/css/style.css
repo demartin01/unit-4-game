@@ -1,0 +1,37 @@
+h1{
+    color: #ff6699;
+    font-size: 30px;
+}
+body {
+    font-family:    "courier";
+    text-align: center;
+}
+
+#scoreBoard {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#leftDiv {
+    float: left;
+}
+
+#rightDiv {
+    float: right;
+}
+
+p {
+    text-align: justify;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.crystals {
+    width: 150px;
+    height: 150px;
+    margin: 0 5px 0 5px;
+}
+
+#imgDiv {
+    clear: both;
+}
